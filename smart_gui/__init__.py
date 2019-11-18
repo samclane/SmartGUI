@@ -1,4 +1,5 @@
 from imutils import paths
+from smart_gui.smart_gui import *
 
 IMAGE_PATHS = paths.list_images("./images")
 EAST_PATH = "./smart_gui/frozen_east_text_detection.pb"
